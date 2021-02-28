@@ -12,6 +12,7 @@
   "dependencies": {
     "modbus-serial": "^8.0.1",
     "modbus-ws": "^2.2.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "serialport": "^9.0.7"
   }
 }

@@ -3,7 +3,7 @@ var ModbusRTU = require("modbus-serial");
 var client = new ModbusRTU();
 
 // open connection to a tcp line
-client.connectTCP("127.0.0.1", { port: 8502 });
+client.connectTCP("127.0.0.1", { port: 502 });
 client.setID(1);
 
 // read the values of 10 registers starting at address 0
